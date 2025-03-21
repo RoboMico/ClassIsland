@@ -87,7 +87,7 @@
   </ItemGroup>
   <PropertyGroup>
     <WapProjPath Condition="'$(WapProjPath)'==''">$(MSBuildExtensionsPath)\Microsoft\DesktopBridge\</WapProjPath>
-    <TargetFramework>net8.0-windows10.0.26100.0</TargetFramework>
+    <TargetFramework>net9.0-windows10.0.26100.0</TargetFramework>
   </PropertyGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.props" />
   <PropertyGroup>
